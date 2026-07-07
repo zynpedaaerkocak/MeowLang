@@ -1,0 +1,8 @@
+kitten kibble_count = 3
+kitten danger_limit = 5
+
+sniff kibble_count < danger_limit
+    meow "Kitten is hungry, give more fish!"
+hiss
+    meow "Kitten is happy and full!"
+sleep

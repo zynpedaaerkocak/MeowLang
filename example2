@@ -1,0 +1,12 @@
+kitten current_xp = 8
+kitten level_limit = 5
+kitten base_treats = 6
+
+sniff current_xp > level_limit
+    kitten total_treats = base_treats * 2
+    kitten final_portions = total_treats / 3
+    meow "Calculated final treat portions:"
+    meow final_portions
+hiss
+    meow base_treats
+sleep

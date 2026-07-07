@@ -1,0 +1,5 @@
+kitten treats = 10
+kitten zeroBox = 0
+kitten result = treats / zeroBox
+
+meow damage_points

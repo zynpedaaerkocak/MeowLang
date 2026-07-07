@@ -1,0 +1,9 @@
+kitten energy = 7
+
+zoomies energy > 1
+    meow "Current kitten energy level:"
+    meow energy
+    energy = energy - 2
+sleep
+
+meow "Kitten is completely exhausted!"
